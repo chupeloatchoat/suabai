@@ -1,7 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body{
-    width:291px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.main{
+    margin: 100px;
+    display: block;
+}
+
 #text1{
     
     text-shadow:  2px 2px 1px green, -2px -2px 1px red;
@@ -36,6 +49,7 @@ body{
     background-color: black;
     font-weight: bold;
 }
+
 #text7{
     color: white;
     background-color: purple;
@@ -43,6 +57,11 @@ body{
     width: 285px;
     font-weight: bold;
 }
-table{
-    margin-left: 2px;
+
+table {
+    border-spacing: 10px;
+}
+table td{
+    font-weight: 700;
+
 }
